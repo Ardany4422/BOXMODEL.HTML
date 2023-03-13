@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Landing Page</title>
+    <style>
+      /* Estilos CSS para el modelo de caja */
+      #box-model {
+        border: 1px solid black;
+        padding: 20px;
+        margin: 20px;
+        width: 400px;
+        height: 200px;
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Landing Page</h1>
+    </header>
+    
+    <section id="theme">
+      <h2>Theme Selected</h2>
+      <p>Insert theme description here</p>
+    </section>
+    
+    <section id="mockup">
+      <h2>Mockup</h2>
+      <img src="path/to/mockup.jpg" alt="Mockup Image">
+    </section>
+    
+    <section id="box-model">
+      <h2>Box Model</h2>
+      <p>El modelo de caja es un concepto fundamental en la programación y diseño de páginas web. En términos simples, el modelo de caja se refiere a cómo se representan visualmente los elementos HTML en la página. Cada elemento HTML, como un encabezado, un párrafo o una imagen, se representa como una caja rectangular en la página. Esta caja tiene un ancho (width), una altura (height), un margen (margin) alrededor de los bordes, un relleno (padding) dentro de los bordes y un borde (border) opcional alrededor del relleno.</p>
+    </section>
+    
+    <section id="about">
+      <h2>About</h2>
+      <p>Insert information about yourself or your company here</p>
+    </section>
+    
+    <footer>
+      <p>Copyright © 2023</p>
+    </footer>
+  </body>
+</html>
